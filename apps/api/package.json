@@ -2,10 +2,11 @@
     "name": "api",
     "version": "0.0.0",
     "description": "",
-    "main": "index.ts",
+    "private": true,
     "scripts": {
-      "start": "nodemon server.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "nodemon --exec \"node -r esbuild-register ./src/index.ts\" -e .ts",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node -r esbuild-register ./src/index.ts"
     },
     "keywords": [],
     "author": "",

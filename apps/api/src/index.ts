@@ -1,11 +1,12 @@
-const express = require("express");
-const server = express();
-const port = 3001;
+import express, { Request, Response } from 'express';
 
-server.get('./hello', function (req, res) {
+const server = express();
+const port: number = 8000;
+
+server.get('/hello', (req: Request, res: Response): void => {
     res.send("Hello World");
 });
 
-server.listen(port, function() {
-    console.log("Listening on " + port)
-})
+server.listen(port, (): void => {
+    console.log(`Listening on port ${port}`);
+});
