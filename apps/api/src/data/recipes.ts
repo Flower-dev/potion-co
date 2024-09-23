@@ -34,7 +34,10 @@ export const recipes: Recipe[] = [
                 quantity: 12,
                 unit: "feuilles"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     },
     {
         potion: "Potion d'amour",
@@ -54,7 +57,10 @@ export const recipes: Recipe[] = [
                 quantity: 10,
                 unit: "ml"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     },
     {
         potion: "Potion de jeunesse",
@@ -74,7 +80,10 @@ export const recipes: Recipe[] = [
                 quantity: 200,
                 unit: "ml"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     },
     {
         potion: "Potion d'immortalité",
@@ -94,7 +103,10 @@ export const recipes: Recipe[] = [
                 quantity: 12,
                 unit: "lingots"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     },
     {
         potion: "Potion de Clairvoyance",
@@ -114,7 +126,10 @@ export const recipes: Recipe[] = [
                 quantity: 4,
                 unit: "noix"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     },
     {
         potion: "Potion de Force",
@@ -134,7 +149,10 @@ export const recipes: Recipe[] = [
                 quantity: 5,
                 unit: "lingots"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     },
     {
         potion: "Potion de Vitesse",
@@ -154,7 +172,10 @@ export const recipes: Recipe[] = [
                 quantity: 1,
                 unit: "ml"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     },
     {
         potion: "Potion de Guérison",
@@ -174,7 +195,10 @@ export const recipes: Recipe[] = [
                 quantity: 13,
                 unit: "ml"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     },
     {
         potion: "Potion de Transformation",
@@ -194,6 +218,9 @@ export const recipes: Recipe[] = [
                 quantity: 6,
                 unit: "épines"
             }
-        ]
+        ],
+        description:"",
+        appliance:"",
+        ustensils:[]
     }
 ]
